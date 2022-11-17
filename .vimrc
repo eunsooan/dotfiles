@@ -35,6 +35,9 @@ set tabstop=4
 " Use space characters instead of tabs.
 set expandtab
 
+" Insert blanks according to tabstop
+set smarttab
+
 " Show line and column number
 set ruler
 
@@ -71,6 +74,9 @@ set ai
 
 " Smartindent
 set si
+
+" Lazy redraw when executing macros
+set lazyredraw
 
 " Enable auto completion menu after pressing TAB.
 set wildmenu
